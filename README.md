@@ -54,6 +54,9 @@ I created billing alerts through the AWS console to help me track my spending.
 - set name of your bucket in `resource "aws_s3_bucket" "bucket"`
 - update region name in `resource "aws_vpc_endpoint" "s3"` to desired region
 
+### backup.sh
+- update name of S3
+
 
 ## Known problems
 - Infinitely taking backups means that your S3 will use a lot of memory
